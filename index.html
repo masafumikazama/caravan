@@ -19,7 +19,7 @@
 
   <body>
     <!-- header -->
-    <header>
+    <nav class="navbar navbar-expand-lg p-4 justify-content-center">
       <h1 class="heading">
         <a href="index.html">
           CARAVAN
@@ -30,9 +30,7 @@
         <i class="fab fa-twitter-square"></i>
         <i class="fab fa-instagram"></i>
       </div>
-    </header>
-
-    <!-- navigation -->
+    </nav>
     <nav>
       <ul class="nav-list">
         <li class="nav-list-item">
@@ -61,141 +59,148 @@
     <div class="container-fluid">
       <div class="row">
         <!-- main用のdiv -->
-        <main>
-          <section class="blog">
+        <div class="col-7">
+          <div class="w-80 text-left float-right mt-5">
             <h2 class="blog-heading">Recent Blogs</h2>
-            <div class="blog-box">
-              <div class="blog-item">
-                <img class="blog-image" src="img/forest.jpg" />
-                <section class="blog-text">
-                  <h3 class="blog-text-heading">
+            <div class="pt-5">
+              <div class="d-flex justify-content-start pb-2 mb-2 border-bottom-1">
+                <img src="img/forest.jpg" style="height: 180px" />
+                <section class="pt-2 pl-4">
+                  <h3 class="pb-2">
                     <a href="single.html">
                       Hopeful lessons from<br />
                       the battle to save<br />
                       rainforests
                     </a>
                   </h3>
-                  <p class="blog-date">June 19, 2017</p>
-                  <span class="category">Nature</span>
+                  <p class="fs-6 d-inline-block">June 19, 2017</p>
+                  <span class="badge bg-secondary text-light p-2">Nature</span>
                 </section>
               </div>
-              <div class="blog-item">
-                <img class="blog-image" src="img/desert.jpg" />
-                <section class="blog-text">
-                  <h3 class="blog-text-heading">
+              <div class="d-flex justify-content-start pb-2 mb-2 border-bottom-1">
+                <img src="img/desert.jpg" style="height: 180px" />
+                <section class="pt-2 pl-4">
+                  <h3 class="pb-2">
                     <a href="single.html">
                       How to fight<br />
                       desertification and<br />
                       reverse climate change
                     </a>
                   </h3>
-                  <p class="blog-date">June 17, 2017</p>
-                  <span class="category">Nature</span>
+                  <p class="fs-6 d-inline-block">June 17, 2017</p>
+                  <span class="badge bg-secondary text-light p-2">Nature</span>
                 </section>
               </div>
-              <div class="blog-item">
-                <img class="blog-image" src="img/sunset.jpg" />
-                <section class="blog-text">
-                  <h3 class="blog-text-heading">
+              <div class="d-flex justify-content-start pb-2 mb-2 border-bottom-1">
+                <img src="img/sunset.jpg" style="height: 180px" />
+                <section class="pt-2 pl-4">
+                  <h3 class="pb-2">
                     <a href="single.html">
                       Why I'm rowing<br />
                       across the Pacific
                     </a>
                   </h3>
-                  <p class="blog-date">June 16, 2017</p>
-                  <span class="category">Adventure</span>
+                  <p class="fs-6 d-inline-block">June 16, 2017</p>
+                  <span class="badge bg-secondary text-light p-2">Adventure</span>
                 </section>
               </div>
-              <div class="blog-item">
-                <img class="blog-image" src="img/italy.jpg" />
-                <section class="blog-text">
-                  <h3 class="blog-text-heading">
+              <div class="d-flex justify-content-start pb-2 mb-2 border-bottom-1">
+                <img src="img/italy.jpg" style="height: 180px" />
+                <section class="pt-2 pl-4">
+                  <h3 class="pb-2">
                     <a href="single.html">
                       Unseen footage,<br />
                       untamed nature
                     </a>
                   </h3>
-                  <p class="blog-date">June 15, 2017</p>
-                  <span class="category">Nature</span>
+                  <p class="fs-6 d-inline-block">June 15, 2017</p>
+                  <span class="badge bg-secondary text-light p-2">Nature</span>
                 </section>
               </div>
-              <div class="blog-item">
-                <img class="blog-image" src="img/asia.jpg" />
-                <section class="blog-text">
-                  <h3 class="blog-text-heading">
+              <div class="d-flex justify-content-start pb-2 mb-2 border-bottom-1">
+                <img src="img/asia.jpg" style="height: 180px" />
+                <section class="pt-2 pl-4">
+                  <h3 class="pb-2">
                     <a href="single.html">
                       The case for<br />
                       engineering our food
                     </a>
                   </h3>
-                  <p class="blog-date">June 14, 2017</p>
-                  <span class="category">Culture</span>
+                  <p class="fs-6 d-inline-block">June 14, 2017</p>
+                  <span class="badge bg-secondary text-light p-2">Culture</span>
                 </section>
               </div>
             </div>
-            <div class="pagination">
-              <p><<</p>
-              <p><</p>
-              <p>1</p>
-              <p>2</p>
-              <p>3</p>
-              <p>></p>
-              <p>>></p>
+            <div class="pt-5 text-center">
+              <p class="d-inline-block bg-secondary text-light p-1 mr-4 rounded"><<</p>
+              <p class="d-inline-block bg-secondary text-light p-1 mr-4 rounded"><</p>
+              <p class="d-inline-block bg-secondary text-light p-1 mr-4 rounded">1</p>
+              <p class="d-inline-block bg-secondary text-light p-1 mr-4 rounded">2</p>
+              <p class="d-inline-block bg-secondary text-light p-1 mr-4 rounded">3</p>
+              <p class="d-inline-block bg-secondary text-light p-1 mr-4 rounded">></p>
+              <p class="d-inline-block bg-secondary text-light p-1 mr-4 rounded">>></p>
             </div>
-          </section>
+          </div>
+        </div>
 
-          <div class="sidebar">
+        <div class="col-5">
+          <div class="w-50 text-left float-left mt-5">
             <section class="popular">
               <h2 class="sidebar-heading common-heading">Popular</h2>
-              <div class="sidebar-contents">
-                <p class="popular-text">
+              <div class="p-5">
+                <p>
                   To solve old problems,<br />study new species
                 </p>
-                <p class="popular-text">
+                <p>
                   Why Earth may someday<br />look like Mars
                 </p>
-                <p class="popular-text">
+                <p>
                   What will humans look<br />like in 100 years?
                 </p>
-                <p class="popular-text">
+                <p>
                   How to grow a forest<br />in your backyard
                 </p>
-                <p class="popular-text">
+                <p>
                   How humans could evolve<br />to survive in space
                 </p>
               </div>
             </section>
             <section class="instagram">
               <h2 class="instagram-heading common-heading">Instagram</h2>
-              <div class="sidebar-contents">
-                <div class="instagram-box"></div>
-                <div class="instagram-box"></div>
-                <div class="instagram-box"></div>
-                <div class="instagram-box"></div>
-                <div class="instagram-box"></div>
-                <div class="instagram-box"></div>
+              <div class="container">
+                <div class="row">
+                  <div class="p-5 col-6">
+                    <div class="instagram-box"></div>
+                    <div class="instagram-box"></div>
+                    <div class="instagram-box"></div>
+                  </div>
+                  <div class="p-5 col-6">
+                    <div class="instagram-box"></div>
+                    <div class="instagram-box"></div>
+                    <div class="instagram-box"></div>
+                  </div>
+                </div>
               </div>
             </section>
             <section class="categories">
               <h2 class="categories-heading common-heading">Categories</h2>
-              <div class="sidebar-contents">
-                <p class="categories-text">Technology(15)</p>
-                <p class="categories-text">Business(23)</p>
-                <p class="categories-text">Entertainment(12)</p>
-                <p class="categories-text">Nature(32)</p>
-                <p class="categories-text">Education(9)</p>
-                <p class="categories-text">Adventure(23)</p>
-                <p class="categories-text">Communication(14)</p>
+              <div class="p-5">
+                <p>Technology(15)</p>
+                <p>Business(23)</p>
+                <p>Entertainment(12)</p>
+                <p>Nature(32)</p>
+                <p>Education(9)</p>
+                <p>Adventure(23)</p>
+                <p>Communication(14)</p>
               </div>
             </section>
           </div>
-        </main>
       </div>
     </div>
 
     <!-- footer -->
-    <footer>
-      <p class="footer-text">© All rights reserved by Infratop.Inc.</p>
+    <footer class="p-5 bg-secondary text-center">
+      <p class="text-white">© All rights reserved by Infratop.Inc.</p>
     </footer>
   </body>
 </html>
